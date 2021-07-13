@@ -47,7 +47,7 @@ a *:hover{
 	display: block;
 	margin: 0 auto;
 }
-ul{
+#navigation{
 	width: 100%;
 	margin: 0 auto;
 	height: 75px;
@@ -56,7 +56,7 @@ ul{
 	background-color: #222;
 	align-items: center;
 }
-li{
+#centerer div{
 	width: 252px;
 	margin: 0 auto;
 	height: 100%;
@@ -64,7 +64,7 @@ li{
 	text-align: center;
 	text-decoration: none;
 	font-size: 24px;
-	line-height: 55px;
+	line-height: 60px;
 	float: left;
 	align-content: center;
 	
@@ -75,8 +75,16 @@ li{
 }
 
 
+#centerer{
+	margin: 0 auto;
+	width: 1011px;
+}
 
-a{
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
 }
 #toolsDiv {
@@ -92,11 +100,11 @@ a{
 	width: 700px;
 	margin: 0 auto;
 }
-line *:hover{
+#navigation *:hover{
 	transition: 0.3s;
 	background-color: #444;
 }
 #navigation *:active{
 	transition: 0.3s;
-	background-color: #555;
+	background-color: rgb(172, 51, 51);
 }
